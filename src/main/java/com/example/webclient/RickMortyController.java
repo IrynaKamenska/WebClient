@@ -20,7 +20,7 @@ public class RickMortyController {
 
     // http://localhost:8080/api/
     @GetMapping
-    List<RickMortyCharacter> getAllCharacter() {
+    public List<RickMortyCharacter> getAllCharacter() {
         return rickMortyService.getAllCharacter();
     }
 
